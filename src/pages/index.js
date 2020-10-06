@@ -36,10 +36,14 @@ const IndexPage = () => (
     </div>
     <div className="Cards">
       <div className="BurgundyCard">
-        <Card />
+        <Card 
+          text="Here, We care deeply about the challenge."
+        />
       </div>
       <div className="MustardCard">
-        <Card />
+        <Card 
+          text="Then, We take ice coffee & get things done."
+        />
       </div>
     </div>
   </Layout>

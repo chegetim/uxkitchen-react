@@ -3,7 +3,7 @@ import './Card.css'
 
 const Card = props => (
     <div className="Card">
-        <h2>Here,<br/>We care deeply about the challenge</h2>
+        <h2 className="LineBreak">{props.text}</h2>
     </div>
 )
 
