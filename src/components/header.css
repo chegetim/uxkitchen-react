@@ -4,7 +4,11 @@
     padding: 1.2em 0;
     z-index: 100;
 }
-
+.HeaderScrolled {
+    padding: 0.4em 0;
+    background: #DFA800;
+    /*backdrop-filter: blur(20px);*/
+}
 .HeaderGroup {
     max-width: 64em;
     margin: 0 auto;
@@ -17,6 +21,11 @@
 .Header img {
     margin: 0 24em 0 2em;
     height: 4.8em;
+}
+
+.HeaderScrolled img {
+    margin: 0 24em 0 2em;
+    height: 3.2em;
 }
 
 .Header a {
