@@ -13,3 +13,8 @@
     line-height: 1.5;
     color: #FEFEFE;
 }
+
+.LineBreak {
+    white-space: pre-wrap;
+}
+
