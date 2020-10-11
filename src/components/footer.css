@@ -1,0 +1,24 @@
+.Footer {
+    z-index: 100;
+    margin: 8em auto 1em auto;
+    padding: 3em 6em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    background-color: #ECECEC;
+  }
+
+.FooterGroup {
+    margin: 0.625em 0 0 0;
+}
+
+  .Footer p {
+    margin: 0 0;
+    font-size: 0.8em;
+}
+
+.Footer .Centred {
+    margin: 0.625em auto;
+    display: grid;
+    justify-items: center;
+  }

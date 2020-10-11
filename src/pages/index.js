@@ -70,19 +70,19 @@ const IndexPage = () => (
     </div>
     <div className="Partners">
       <h3 className="PartnerGroup">Partners:</h3>
-      <Link className="PartnerGroup" to="https://medium.com/@uxkitchenke">
+      <Link className="PartnerGroup" to="https://africastalking.com/">
         <img src={require('../images/at-logo.png')} />
         <p>Africa's Talking</p>
       </Link>
-      <Link className="PartnerGroup" to="https://join.slack.com/t/ux-kitchen/shared_invite/zt-eqq3hd4x-EN0MCKTdpc_PShx~aJUilQ">
+      <Link className="PartnerGroup" to="https://www.akiliplus.com/">
         <img src={require('../images/akiliplus-logo.png')} />
         <p>Akiliplus</p>
       </Link>
-      <Link className="PartnerGroup" to="https://twitter.com/uxkitchenke">
+      <Link className="PartnerGroup" to="https://ihub.co.ke/">
         <img src={require('../images/ihub-logo.png')} />
         <p>iHub Nairobi</p>
         </Link>
-      <Link className="PartnerGroup" to="https://twitter.com/uxkitchenke">
+      <Link className="PartnerGroup" to="https://friends.figma.com/nairobi/">
         <img src={require('../images/figma-logo.png')} />
         <p>Figma Nairobi</p>
       </Link>
