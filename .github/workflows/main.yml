@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: macos-latests
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v1
       - uses: enriikke/gatsby-gh-pages-action@v2
