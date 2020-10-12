@@ -5,6 +5,8 @@ import Layout from "../components/layout"
 
 const Corporates = props => (
   <Layout>
+    <div className="HeaderCorporates">
+    </div>
     <div className="BannerCorporates">
       <div className="BannerCorporatesGroup">
         <h1>Coming soon...</h1>
