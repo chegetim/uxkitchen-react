@@ -1,7 +1,7 @@
 name: Gatsby Publish
 
 on:
-  pull-request:
+  push:
     branches:
       - dev
 
@@ -12,7 +12,6 @@ jobs:
       - uses: actions/checkout@v1
       - uses: enriikke/gatsby-gh-pages-action@v2
         with:
-          access-token: ${{ secrets.uxkitchen }}
+          access-token: ${{ secrets.ACCESS_TOKEN }}
           deploy-branch: gh-pages
           gatsby-args: --prefix-paths
-          skip-publish: true
