@@ -1,7 +1,7 @@
 name: Gatsby Publish
 
 on:
-  push:
+  pull-request:
     branches:
       - dev
 
@@ -15,3 +15,4 @@ jobs:
           access-token: ${{ secrets.uxkitchen }}
           deploy-branch: gh-pages
           gatsby-args: --prefix-paths
+          skip-publish: true
