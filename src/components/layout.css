@@ -103,6 +103,37 @@ button:hover {
 }
 }
 
+.BannerCorporates {
+  height: 40em;
+} 
+
+.BannerCorporatesGroup {
+  margin: 0 auto;
+  padding: 14em 2em;
+  max-width: 24em;
+  text-align: center;
+}
+
+.BannerCorporates h1 {
+  margin: 1em -1em;
+}
+
+.BannerCorporates p {
+  margin: 1em -0.4em 2.8em -0.4em;
+}
+
+@media (max-width: 32em) {
+.BannerCorporates {
+  height: 30em;
+}
+.BannerCorporatesGroup {
+  padding: 7.2em 3.6em;
+}
+.BannerCorporates p {
+  margin: 0.8em -0.4em 2em -0.4em;
+}
+}
+
 .Logos {
   margin: 6em auto;
   padding: 0 6em;
