@@ -10,7 +10,7 @@ const IndexPage = () => (
     <SEO title="UX Kitchen KE" />
     <div className="Banner">
       <div className="BannerGroup">
-        <h1>Less bs, more UX2</h1>
+        <h1>Less bs, more UX</h1>
         <p>
           Helping entrepreneurs and professionals learn to build products that
           are useful, usable, desirable, and ultimately adoptable through good
