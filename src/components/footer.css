@@ -1,24 +1,41 @@
 .Footer {
-    z-index: 100;
-    margin: 8em auto 1em auto;
-    padding: 3em 6em;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-    background-color: #ECECEC;
-  }
-
-.FooterGroup {
-    margin: 0.625em 0 0 0;
+  z-index: 100;
+  margin: 8em auto 0 auto;
+  padding: 3em 6em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  background-color: #ececec;
 }
 
-  .Footer p {
-    margin: 0 0;
-    font-size: 0.8em;
+.FooterGroup {
+  margin: 0.625em 0 0 0;
+}
+
+.Footer p {
+  margin: 0 0;
+  font-size: 0.8em;
 }
 
 .Footer .Centred {
-    margin: 0.625em auto;
+  margin: 0.625em auto;
+  display: grid;
+  justify-items: center;
+}
+
+@media (max-width: 32em) {
+  .Footer {
+    margin: 5em auto 0 auto;
+    padding: 3em 0;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+  }
+  .FooterGroup {
+    margin: 0.75em auto;
     display: grid;
     justify-items: center;
   }
+  .Footer .Centred {
+    margin: 0.25em auto;
+  }
+}

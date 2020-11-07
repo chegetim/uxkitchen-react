@@ -1,12 +1,11 @@
 .Card {
     position: relative;
-    padding: 0 6em;
+    padding: 0 5.5em;
     height: 36em;
     display: grid;
     justify-items: center;
     align-items: center;
 }
-
 .Card h2 {
     font-size: 2em;
     font-weight: 800;
@@ -14,7 +13,16 @@
     color: #FEFEFE;
 }
 
+@media (max-width: 32em) {
+.Card {
+    padding: 0 3em;
+    height: 15em;
+}
+.Card h2 {
+    font-size: 1.5em;
+}
+}
+
 .LineBreak {
     white-space: pre-wrap;
 }
-
