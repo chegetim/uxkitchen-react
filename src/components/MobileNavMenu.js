@@ -37,6 +37,7 @@ const MobileNavMenu = () => {
         </MenuIcon>
       </MenuIconContainer>
       <MenuLinks menuOpen={menuOpen}>
+        <Link to="/">Home</Link>
         <Link to="/corporates">Corporates</Link>
         <Link to="/contact-us">Contact Us</Link>
         <Link to="https://www.meetup.com/UX-Kichen" target="blank">
