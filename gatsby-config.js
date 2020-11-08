@@ -3,7 +3,7 @@ module.exports = {
   siteMetadata: {
     title: `UX Kitchen KE`,
     description: `Less bs, more UX`,
-    author: `Chege Tim`,
+    author: `Kuria Chege`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
