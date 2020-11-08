@@ -29,6 +29,7 @@ const MobileNavMenu = () => {
       <Link to="/">
         <img src={require("../images/ux-kitchen-logo-white.png")} />
       </Link>
+      <p>TEST</p>
       <MenuIconContainer>
         <MenuIcon menuOpen={menuOpen} onClick={() => toggleMenuOpen(!menuOpen)}>
           <div />
