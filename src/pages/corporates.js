@@ -1,10 +1,14 @@
 import React from "react"
 import { Link } from "gatsby"
+import styled from "styled-components"
+import PropTypes from "prop-types"
 
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 const Corporates = props => (
   <Layout>
+    <SEO title="Corporates" />
     <div className="HeaderCorporates"></div>
     <div className="BannerCorporates">
       <div className="BannerCorporatesGroup">

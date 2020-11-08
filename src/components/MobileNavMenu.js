@@ -2,6 +2,10 @@ import React, { useEffect, useRef, useState } from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
 import { breakpoints } from "../utils/breakpoints"
+import PropTypes from "prop-types"
+
+import "./header.css"
+import "./layout.css"
 
 const MobileNavMenu = () => {
   const [menuOpen, toggleMenuOpen] = useState(false)

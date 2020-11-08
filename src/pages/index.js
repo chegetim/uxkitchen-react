@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import styled from "styled-components"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -7,7 +8,7 @@ import Card from "../components/Card"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="UX Kitchen KE" />
+    <SEO title="Home" />
     <div className="Banner">
       <div className="BannerGroup">
         <h1>Less bs, more UX</h1>

@@ -1,9 +1,9 @@
 module.exports = {
   pathPrefix: "/uxkitchen-react",
   siteMetadata: {
-    title: `Design+Code 3`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `UX Kitchen KE`,
+    description: `Less bs, more UX`,
+    author: `Chege Tim`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

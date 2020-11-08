@@ -2,10 +2,12 @@ import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import styled from "styled-components"
+
 import MobileNavMenu from "./MobileNavMenu"
 import { breakpoints } from "../utils/breakpoints"
 
 import "./header.css"
+import "./layout.css"
 
 class Header extends React.Component {
   constructor(props) {
