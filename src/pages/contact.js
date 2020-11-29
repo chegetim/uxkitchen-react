@@ -98,13 +98,13 @@ const MessageGroup = styled.div`
   }
 `
 const SendBtn = styled.div`
-  button {\
+  button {
     margin-top: 20px;
     width: 600px;
     height: 55px;
     @media (max-width: 640px) {
-    width: 320px;
-  }
+      width: 320px;
+    }
   }
 `
 const ClearBtn = styled.div`
