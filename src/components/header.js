@@ -46,7 +46,7 @@ class Header extends React.Component {
                 <img src={require("../images/ux-kitchen-logo-white.png")} />
               </Link>
               <Link to="/corporates">Corporates</Link>
-              <Link to="/contact-us">Contact Us</Link>
+              <Link to="/contact">Contact Us</Link>
               <Link to="https://www.meetup.com/UX-Kichen" target="blank">
                 <button>Community</button>
               </Link>

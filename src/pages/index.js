@@ -92,7 +92,7 @@ const IndexPage = () => (
         <p>A product re-thought using UX principles?</p>
         <p>A UX masterclass for your team maybe?</p>
       </div>
-      <Link to="/contact-us">
+      <Link to="/contact">
         <button>Let UX Kitchen save your day</button>
       </Link>
     </div>
