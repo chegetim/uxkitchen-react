@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 const Contact = props => (
   <Layout>
-    <SEO title="Corporates" />
+    <SEO title="Contact Us" />
     <div className="HeaderCorporates" />
     <form action="https://formspree.io/f/xyybddnd" method="POST">
       <FormGroup>
