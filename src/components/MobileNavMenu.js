@@ -8,6 +8,7 @@ import "./header.css"
 import "./layout.css"
 
 const MobileNavMenu = () => {
+  /* */
   const [menuOpen, toggleMenuOpen] = useState(false)
 
   const [background, setBackground] = useState(false)
@@ -16,7 +17,7 @@ const MobileNavMenu = () => {
   navRef.current = background
   useEffect(() => {
     const handleScroll = () => {
-      const show = window.scrollY > 560
+      const show = window.scrollY > 50
       if (navRef.current !== show) {
         setBackground(show)
       }
