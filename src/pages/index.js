@@ -17,31 +17,44 @@ const IndexPage = () => (
           are useful, usable, desirable, and ultimately adoptable through good
           UX.
         </p>
-        <Link to="https://www.meetup.com/UX-Kichen" target="blank">
+        <a href="https://www.meetup.com/UX-Kichen" target="_blank">
           <button>Join the Community</button>
-        </Link>
+        </a>
       </div>
     </div>
     <div className="Logos">
-      <Link className="LogoGroup" to="https://www.meetup.com/UX-Kichen">
+      <a
+        className="LogoGroup"
+        href="https://www.meetup.com/UX-Kichen"
+        target="_blank"
+      >
         <img src={require("../images/meetup-logo.png")} />
         <p>We meet once a month</p>
-      </Link>
-      <Link className="LogoGroup" to="https://medium.com/@uxkitchenke">
+      </a>
+      <a
+        className="LogoGroup"
+        href="https://medium.com/@uxkitchenke"
+        target="_blank"
+      >
         <img src={require("../images/medium-logo.png")} />
         <p>Worth checking out</p>
-      </Link>
-      <Link
+      </a>
+      <a
         className="LogoGroup"
-        to="https://join.slack.com/t/ux-kitchen/shared_invite/zt-eqq3hd4x-EN0MCKTdpc_PShx~aJUilQ"
+        href="https://join.slack.com/t/ux-kitchen/shared_invite/zt-krjpmtk6-z9mVgNjwmpwwiDyivuFjKQ"
+        target="_blank"
       >
         <img src={require("../images/slack-logo.png")} />
         <p>Our growing chat room</p>
-      </Link>
-      <Link className="LogoGroup" to="https://twitter.com/uxkitchenke">
+      </a>
+      <a
+        className="LogoGroup"
+        href="https://twitter.com/uxkitchenke"
+        target="_blank"
+      >
         <img src={require("../images/twitter-logo.png")} />
-        <p>There's not much here</p>
-      </Link>
+        <p>Stay updated</p>
+      </a>
     </div>
     <div className="Cards">
       <div className="BurgundyCard">
@@ -98,22 +111,34 @@ const IndexPage = () => (
     </div>
     <div className="Partners">
       <h3 className="PartnerGroup">Partners:</h3>
-      <Link className="PartnerGroup" to="https://africastalking.com/">
+      <a
+        className="PartnerGroup"
+        href="https://africastalking.com/"
+        target="_blank"
+      >
         <img src={require("../images/at-logo.png")} />
         <p>Africa's Talking</p>
-      </Link>
-      <Link className="PartnerGroup" to="https://www.akiliplus.com/">
+      </a>
+      <a
+        className="PartnerGroup"
+        href="https://www.akiliplus.com/"
+        target="_blank"
+      >
         <img src={require("../images/akiliplus-logo.png")} />
         <p>Akiliplus</p>
-      </Link>
-      <Link className="PartnerGroup" to="https://ihub.co.ke/">
+      </a>
+      <a className="PartnerGroup" href="https://ihub.co.ke/" target="_blank">
         <img src={require("../images/ihub-logo.png")} />
         <p>iHub Nairobi</p>
-      </Link>
-      <Link className="PartnerGroup" to="https://friends.figma.com/nairobi/">
+      </a>
+      <a
+        className="PartnerGroup"
+        href="https://friends.figma.com/nairobi/"
+        target="_blank"
+      >
         <img src={require("../images/figma-logo.png")} />
         <p>Figma Nairobi</p>
-      </Link>
+      </a>
     </div>
   </Layout>
 )

@@ -33,6 +33,7 @@
   font-weight: 600;
   text-decoration: none;
   color: #fefefe;
+  cursor: pointer;
 }
 .Header a:hover {
   color: #4a2c40;

@@ -29,6 +29,7 @@ a {
   font-weight: 600;
   text-decoration: none;
   color: #dfa800;
+  cursor: pointer;
 }
 a:hover {
   color: #4a2c40;

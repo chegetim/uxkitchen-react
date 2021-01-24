@@ -47,9 +47,9 @@ class Header extends React.Component {
               </Link>
               <Link to="/corporates">Corporates</Link>
               <Link to="/contact">Contact Us</Link>
-              <Link to="https://www.meetup.com/UX-Kichen" target="blank">
+              <a href="https://www.meetup.com/UX-Kichen" target="_blank">
                 <button>Community</button>
-              </Link>
+              </a>
             </div>
           </header>
         </StyledHeader>
