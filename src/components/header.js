@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import styled from "styled-components"
 
-import MobileNavMenu from "./MobileNavMenu"
+import MobileNavMenu from "./MobileNavMenu.js"
 import { breakpoints } from "../utils/breakpoints"
 
 import "./header.css"
