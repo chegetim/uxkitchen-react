@@ -2,12 +2,12 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
-import MobileNavMenu from "./MobileNavMenu"
+import MobileNavMenu from "./MobileNavMenu.js"
 
-import Header from "./header"
+import Header from "./Header.js"
 import "./header.css"
 import "./layout.css"
-import Footer from "./Footer"
+import Footer from "./Footer.js"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`

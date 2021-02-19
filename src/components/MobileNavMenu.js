@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
-import { breakpoints } from "../utils/breakpoints"
+import { breakpoints } from "../utils/breakpoints.js"
 import PropTypes from "prop-types"
 
 import "./header.css"

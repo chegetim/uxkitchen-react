@@ -2,9 +2,9 @@ import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Card from "../components/Card"
+import Layout from "../components/layout.js"
+import SEO from "../components/seo.js"
+import Card from "../components/Card.js"
 
 const IndexPage = () => (
   <Layout>
